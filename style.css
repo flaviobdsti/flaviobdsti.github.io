@@ -20,22 +20,30 @@ body, html {
 	align-items: center;
 	flex-wrap: wrap;
 	height: 60%;
+
 }
+
 
 #estilo1{
 	color: black;
 	font-size: 3.4rem;
 	font-family: 'Quicksand', sans-serif;
-	
-
+	flex-basis: 80px;
 }
 
 #estilo2{
 	color: white;
 	font-size: 3.4rem;
 	font-family: 'Roboto', sans-serif;
+}
 
-	/*flex-basis: 80px;*/
+#estilo3{
+	color: black;
+	font-size: 1.4rem;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	flex-basis: 80px;
+
 }
 
 .bg-light {
@@ -50,20 +58,21 @@ body, html {
 	color: #0731ff;
 }
 
-.btn-primary{
-	background-color: black;
-	border-color: yellow;
+
+.btcolorfundo{
+	background-color: #3f51b5
+
 }
 
-.btn-primary:hover{
-	background-color: yellow;
+.btn-dark:hover{
+	background-color: #82b1ff;
+
+}
+
+
+.bt-espaco{
+	margin: 13px 12px 12px 10px;
+	width: 120px;
+	height: 40px;
 	border-color: black;
-	color: black;
 }
-
-.btn-primary:hold{
-	background-color: yellow;
-	border-color: black;
-	color: black;
-}
-
